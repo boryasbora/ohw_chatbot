@@ -28,7 +28,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 #     model = AutoModelForCausalLM.from_pretrained(model_name)
 #     return model, tokenizer
 
-model, tokenizer = load_model()
+# model, tokenizer = load_model()
 def load_from_pickle(filename):
     with open(filename, "rb") as file:
         return pickle.load(file)
