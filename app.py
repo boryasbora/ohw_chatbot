@@ -21,12 +21,12 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
 # Load model and tokenizer
-@st.cache_resource
-def load_model():
-    model_name = "allenai/OLMo-7B-Instruct"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-    return model, tokenizer
+# @st.cache_resource
+# def load_model():
+#     model_name = "allenai/OLMo-7B-Instruct"
+#     tokenizer = AutoTokenizer.from_pretrained(model_name)
+#     model = AutoModelForCausalLM.from_pretrained(model_name)
+#     return model, tokenizer
 
 model, tokenizer = load_model()
 def load_from_pickle(filename):
