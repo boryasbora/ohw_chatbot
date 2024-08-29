@@ -1,0 +1,29 @@
+# Core libraries
+streamlit
+langchain
+langchain-openai
+langchain-community
+pydantic
+
+# Natural Language Processing
+transformers
+sentence-transformers
+
+# Data handling and storage
+chromadb
+pickle5
+
+# Machine Learning
+torch
+
+# Date and time handling
+python-dateutil
+
+# API and networking
+requests
+
+# Tracing and monitoring
+langchain-cli
+
+# Note: Version numbers are not specified to get the latest compatible versions.
+# You may want to specify versions for production use.
